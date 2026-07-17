@@ -1,5 +1,6 @@
 #NijuueiRemake
 ## 怎么运行
+(AI)生成
 
 ```bash
 cd onscripter_project
