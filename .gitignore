@@ -1,0 +1,55 @@
+.DS_Store
+**/.DS_Store
+
+*.o
+*.a
+*.log
+
+/krkrsdl2
+/savedata/
+/data/savedata/
+
+/build/
+/build-*/
+/build_*/
+**/build/
+.externalNativeBuild/
+.gradle/
+android-project/app/.cxx/
+android-project/local.properties
+android-project/.idea/
+android-project/gradle/gradle-daemon-jvm.properties
+
+# OpenHarmony (ohos-project) build outputs and vendored dependencies
+/ohos-project/.hvigor/
+/ohos-project/.idea/
+/ohos-project/build/
+/ohos-project/oh_modules/
+/ohos-project/local.properties
+/ohos-project/entry/build/
+/ohos-project/entry/oh_modules/
+/ohos-project/entry/.preview/
+/ohos-project/entry/src/main/cpp/third_party/
+/ohos-project/entry/src/main/resources/rawfile/data/
+/ohos-project/oh-package-lock.json5
+/ohos-project/entry/oh-package-lock.json5
+
+# Local test/update patches are kept out of the repository on purpose;
+# drop a patch.xp3 next to the public save folder to apply updates.
+/patch.xp3
+/patch*.xp3
+
+# Huge game data archives
+*.xp3
+.idea/
+
+# Python bytecode cache
+tools/__pycache__/
+__pycache__/
+
+# local incremental-hashing cache for generate_content_manifest.py
+tools/.content-manifest-cache.json
+
+# game data is fetched from the data source release (data-source.json),
+# never stored in git
+/data/
